@@ -1,3 +1,4 @@
+// intro comment 
 #include <iostream>
 using namespace std;
 int doSomething(int& x, int& y);
@@ -6,6 +7,7 @@ int main()
 {
 	int x = 1; 
 	int y = 1;
+	int z = 1;
 	cout << doSomething(x, y) << endl;
 	x = 1;
 	y = 1;
